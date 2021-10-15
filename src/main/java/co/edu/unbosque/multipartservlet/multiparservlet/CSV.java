@@ -13,7 +13,6 @@ public class CSV {
         array.add("prop");
         array.add("propietario");
 
-
     }
 
     public ArrayList<String> getArray() {

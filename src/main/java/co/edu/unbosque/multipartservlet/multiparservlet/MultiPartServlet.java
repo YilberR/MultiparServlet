@@ -29,7 +29,7 @@ public class MultiPartServlet extends HttpServlet {
         response.addCookie(cookie1);
         response.addCookie(cookie2);
 
-        if (csv.array.get(3).equals(nom)) {
+        if (csv.array.get(3).equals(nom))  {
             if (csv.array.get(4).equals(contra)) {
                 cookie2.setValue(csv.array.get(5));
                 response.addCookie(cookie2);

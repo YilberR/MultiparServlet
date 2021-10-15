@@ -9,7 +9,7 @@ public class arrayCsv {
         array = new ArrayList<>();
     }
         public ArrayList<metaData> getArray () {
-            return array;
+            return array ;
         }
 
         public void setArray (ArrayList < metaData > array) {

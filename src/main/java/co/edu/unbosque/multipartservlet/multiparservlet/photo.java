@@ -57,7 +57,7 @@ public class photo extends HttpServlet {
                 correo= cookie.getValue();
             }
         }
-        arraycsv.getArray().add(new metaData(petName,hora,correo,fileName));
+        arraycsv.getArray().add(new metaData(petName,hora,correo,fileName) );
 
         response.sendRedirect(request.getContextPath()+"/result.html");
     }

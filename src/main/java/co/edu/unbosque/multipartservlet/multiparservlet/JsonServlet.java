@@ -14,7 +14,7 @@ public class JsonServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
-        response.setContentType("application/json");
+        response.setContentType("application/json" );
         foto = new arrayCsv();
 
         PrintWriter out = response.getWriter();

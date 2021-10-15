@@ -16,6 +16,7 @@ public class metaData {
     }
     public String toSrting(){
         return "petName:"+this.petName + "hora:"+this.hora+ "correo:"+this.correo+"imagen:"+this.imagen;
+
     }
 
     public String getPetName() {
