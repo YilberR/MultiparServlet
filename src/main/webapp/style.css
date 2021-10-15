@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background: #808080;
+
+}
+
+.tabla{
+    margin-left: 50px;
+    background: white;
+}
+
+

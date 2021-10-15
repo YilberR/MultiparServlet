@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result2</title>
+</head>
+<body>
+
+    <img src="" id="pet-image">
+
+    <script>
+        let pathname= window.location.pathname.split("/");
+        pathname[pathname.length-1]="jsonServlet"
+        pathname=pathname.join("/")
+        const servletURL= window.location.host + pathname;
+            fetch("http://"+servletURL)
+                 .then(response => response.json())
+                    .then(data => {
+                        document.getElementById("pet-image").setAttribute("src", "uploads/"+data[0].imageName)
+                    });
+    </script>
+
+</body>
+</html>
